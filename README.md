@@ -15,6 +15,22 @@ Steps to test drive PayWizard.
 
 4. Wait for completion and then select the new upkeep when shown in the page.
 
-5. Details will be shown of the setup. This is now a place where you can experiment with sending transactions to lower balances which will trigger an automatic topup of funds to that account(s)
+5. Copy the forwarder address and add this via the setForwarderAddress in the Smart Contract to connect ChainLink with the PayWizard contract.
 
-6. The next steps for this project are to take this base solution and create a user interface which can display these values and include controls for the end user to manage multi-account AA scenarios where gas is required just-in-time to ensure availability of a service(s).
+6. Now you can experiment with making transactions to adjust balances to trigger automatic topups of funds.
+
+To take this project further:
+
+- Front end. 
+
+An application is required to help end users trigger events and see live information as changes occur per system interval.
+
+- Smart Contract.
+
+Further testing is required to ensure the added features and contract as a whole is secure and optimised.
+
+Example contract scenarios are needed to help illustrate the full process(es) and uses of this solution.
+
+- Backend.
+
+Backend functionality is required to inform the owner when funds are low in $LINK and ETH for the project as a whole to help ensure stability. 
